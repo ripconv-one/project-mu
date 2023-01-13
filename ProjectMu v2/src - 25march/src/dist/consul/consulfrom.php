@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Record Sheet</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="css/montserrat-font.css">
+	
+	
+
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="form-v10">
+	<div class="page-content">
+		<div class="form-v10-content">
+	
+
+<form class="form-detail" action="#" method="post" id="myform">
+				<div class="form-left">
+									<h2>Doctor Infomation</h2>
+										<div class="form-group">
+						<div class="form-row form-row-1">
+							<input type="text" name="Doctor ID" id="Doctor ID" class="input-text" placeholder="Doctor ID" required>
+						</div>
+						<div class="form-row form-row-2">
+							<input type="text" name="Doctor Name" id="Doctor Name" class="input-text" placeholder="Doctor  Name" required>
+						</div>
+					</div>
+		
+<div class="form-row">
+						<input type="text" name="Hospital Name" class="company" id="Hospital Name" placeholder="Hospital Name" required>
+					</div>
+
+			
+					<div class="form-group">
+					
+						
+					</div>
+			</form>
+
+
+
+
+				</div>
+			<form class="form-detail" action="#" method="post" id="myform">
+				<div class="form-left">
+						
+
+					<div class="form-group">
+					<h2>Consulting Details</h2>
+					
+					</div>
+					
+					<div class="form-row">
+							<input type="text" name="Patient_id" id="Patient_id" class="input-text" placeholder=" Patient ID" required>
+						</div>
+					<div class="form-row">
+						<textarea name="Symptoms" class="input-text" id="Symptoms" placeholder="Symptoms" required></textarea>
+					</div>
+						<div class="form-row">
+						<textarea name="Diagnosis" class="input-text" id="Diagnosis" placeholder="Diagnosis" required></textarea>
+					</div>
+					
+					<div class="form-group">
+			
+						<input type="submit" name="register" class="btn btn-sucess" value="Save ">
+			
+			
+						<input type="submit" name="register" class="btn btn-danger" value=" Load">
+	
+					</div>
+
+					<div class="form-group">
+
+						<input type="submit" name="register" class="btn btn-sucess" value="Add ">
+
+						<input type="submit" name="register" class="btn btn-danger" value=" Cancel">
+		
+					</div>
+				
+				</div>
+
+				<div class="form-right">
+					<h2>Patient Details</h2>
+					<div class="form-row">
+						<input type="text" name="name" class="name" id="name" placeholder="Patient Name" required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="Age" class="Age" id="Age" placeholder="Age 	" required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="Gender" class="Gender" id="Gender" placeholder="Gender " required>
+					</div>
+					<div class="form-row">
+						<input type="text" class="Gender" id="Address" placeholder="Address" required>
+					</div>
+
+					<div class="form-group">
+						<div class="form-row form-row-1">
+							<input type="text" name="code" class="code" id="code" placeholder="Code +" required>
+						</div>
+						<div class="form-row form-row-2">
+							<input type="text" name="phone" class="phone" id="phone" placeholder="Phone Number" required>
+						</div>
+					</div>
+					<div class="form-row">
+						<input type="text" name="Place" class="Place" id="Place" placeholder="Place  " required>
+					</div>
+					<div class="form-row">
+						<input type="text" name="Dob" class="Dob" id="Dob" placeholder="DOB  " required>
+					</div>
+
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
